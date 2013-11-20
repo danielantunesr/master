@@ -1,0 +1,9 @@
+create database flaviobd;
+use flaviobd;
+create table cliente(nome varchar(35) not null, id int primary key auto_increment,login varchar(12) not null unique, senha char(40) not null);
+insert into cliente (nome,login,senha) values ("Flavex","admin",123);
+
+
+
+
+
