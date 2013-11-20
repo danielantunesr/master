@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 	<head>
@@ -55,19 +55,23 @@
 
 								<ul class="menu">
 									<li class="item-435 current active">
-										<a href="index.php">Home Page</a>
+										<a href="index.php">Home</a>
 									</li>
 									<li class="item-294 deeper parent">
-										<a href="index.php">Site Map</a>
+										<a href="index.php">Jogos </a>
 										<ul>
 											<li class="item-290">
-												<a href="index.php" >Articles</a>
+												<a href="aventura.php" >Aventura</a>
 											</li>
 											<li class="item-438">
-												<a href="index.php" >Weblinks</a>
+												<a href="RPG.php" >RPG</a>
 											</li>
 											<li class="item-439 deeper parent">
-												<a href="index.php" >Contacts</a>
+												<a href="estrategia.php" >Estrategia</a>
+											</li>
+											<li class="item-439 deeper parent">
+												<a href="esportes.php" >Esportes</a>
+											</li><!--
 												<ul>
 													<li class="item-445">
 														<a href="index.php" >globbersthemes</a>
@@ -77,44 +81,50 @@
 													</li>
 												</ul>
 											</li>
-											<li class="item-448">
-												<a href="index.php" target="_blank" >Administrator</a>
+											-->
+											<li class="item-439 deeper parent">
+												<a href="indie.php">Indie</a>
 											</li>
 										</ul>
 									</li>
 									<li class="item-233">
-										<a href="index.php" >Login</a>
+										<a href="index.php" >Softwares</a>
 									</li>
 									<li class="item-238">
-										<a href="index.php" >Sample Sites</a>
+										<a href="index.php" >Demonstrações</a>
 									</li>
 									<li class="item-455">
-										<a href="index.php" >Example Pages</a>
+										<a href="index.php" >Lançamentos</a>
 									</li>
 									<li class="item-486">
-										<a href="index.php" >free templates joomla</a>
+										<a href="index.php" >Linux</a>
 									</li>
-									<li class="item-487">
-										<a href="index.php" >about globbers</a>
-									</li>
+									
+										<input type="text" name="Login" placeholder="Login">
+										<button type="submit" class="btn">Conectar</button>
+										<input type="password" name="Senha" placeholder="Senha">
+										<button type="submit" class="btn"><a href="Cadastro cliente.php">Registrar</a></button>
+									
+									
 								</ul>
 
 							</div>
 						</div>
+						<!-- apos aquele <a href="#"> coloque um codigo php para pegar os ultimso descontos</a>-->
 						<div id="content-bottom">
 							<div id="hightlight-t">
-								HOT NEWS:
+								Noticias:
 							</div>
 							<div id="hightlight-b">
 								<ul id="news">
 									<li>
-										<a href="#n1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus semper. </a>
+										<a href="#n1"> </a>
 									</li>
 									<li>
-										<a href="#n2">Maecenas a accumsan felis. Praesent scelerisque volutpat egestas.</a>
+										<a href="#n2"></a>
 									</li>
 									<li>
-										<a href="#n3">Pellentesque varius, tortor nec ultricies pretium, odio est gravida dolor, et rutrum erat. </a>
+										<a href="#n3"> </a>
 									</li>
 								</ul>
 							</div>
@@ -159,19 +169,19 @@
 							</ul>
 							<ul class="pagination">
 								<li>
-									<a href="#" rel="0">01.latest news N.york </a>
+									<a href="#" rel="0"><!-- Insira aqui o codigo php que vai buscar o nome do jogo no bd --></a>
 								</li>
 								<li>
-									<a href="#" rel="1">02.History</a>
+									<a href="#" rel="1"><!-- Insira aqui o codigo php que vai buscar o nome do jogo no bd --></a>
 								</li>
 								<li>
-									<a href="#" rel="2">03.sport new york</a>
+									<a href="#" rel="2"><!-- Insira aqui o codigo php que vai buscar o nome do jogo no bd --></a>
 								</li>
 								<li>
-									<a href="#" rel="3">04.gallery images</a>
+									<a href="#" rel="3"><!-- Insira aqui o codigo php que vai buscar o nome do jogo no bd --></a>
 								</li>
 								<li>
-									<a href="#" rel="4">05.spectacles</a>
+									<a href="#" rel="4"><!-- Insira aqui o codigo php que vai buscar o nome do jogo no bd --></a>
 								</li>
 							</ul>
 						</div>
@@ -182,7 +192,7 @@
 									crossfade : true,
 									autoplay : 5000,
 									autorestart : 500,
-									autopagination : false
+									autopagination : true
 								});
 							});
 						</script><!-- slider end -->
@@ -242,7 +252,7 @@
 										</li>
 									</ul>
 								</div>
-
+							
 							</div>
 							<div class="box">
 								<div class="moduletable">
